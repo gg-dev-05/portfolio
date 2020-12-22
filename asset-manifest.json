@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gg-dev-05/static/css/main.d0ffa565.chunk.css",
+    "main.js": "/gg-dev-05/static/js/main.5ed29fe8.chunk.js",
+    "main.js.map": "/gg-dev-05/static/js/main.5ed29fe8.chunk.js.map",
+    "runtime-main.js": "/gg-dev-05/static/js/runtime-main.bae4cc7a.js",
+    "runtime-main.js.map": "/gg-dev-05/static/js/runtime-main.bae4cc7a.js.map",
+    "static/js/2.25cee7fa.chunk.js": "/gg-dev-05/static/js/2.25cee7fa.chunk.js",
+    "static/js/2.25cee7fa.chunk.js.map": "/gg-dev-05/static/js/2.25cee7fa.chunk.js.map",
+    "static/js/3.b8f22517.chunk.js": "/gg-dev-05/static/js/3.b8f22517.chunk.js",
+    "static/js/3.b8f22517.chunk.js.map": "/gg-dev-05/static/js/3.b8f22517.chunk.js.map",
+    "index.html": "/gg-dev-05/index.html",
+    "static/css/main.d0ffa565.chunk.css.map": "/gg-dev-05/static/css/main.d0ffa565.chunk.css.map",
+    "static/js/2.25cee7fa.chunk.js.LICENSE.txt": "/gg-dev-05/static/js/2.25cee7fa.chunk.js.LICENSE.txt",
+    "static/media/load.58ebf1c8.svg": "/gg-dev-05/static/media/load.58ebf1c8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bae4cc7a.js",
+    "static/js/2.25cee7fa.chunk.js",
+    "static/css/main.d0ffa565.chunk.css",
+    "static/js/main.5ed29fe8.chunk.js"
+  ]
+}
