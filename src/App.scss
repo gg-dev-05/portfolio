@@ -1,0 +1,17 @@
+@import './css/globals.scss';
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: $background_color;
+}
+
+.preloading {
+    z-index: 2;
+}
+
+header {
+    padding: 5% 5% 0%;
+}
