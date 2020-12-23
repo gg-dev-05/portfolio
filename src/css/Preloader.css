@@ -1,0 +1,12 @@
+#loader {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #F1F2F3;
+  /* margin-top: -20px; */
+}
+/*# sourceMappingURL=Preloader.css.map */
