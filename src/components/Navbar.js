@@ -12,14 +12,14 @@ export default function Navbar() {
             <Router>
                 <div className="nav">
                     <div className="logo">
-                        <h2>Welcome Welcome</h2>
+                        <h2>Garvit Galgat</h2>
 
                     </div>
                     <div className="links">
-                        <span><Link to={'/'} onClick={() => { console.log("clicked") }}>Home</Link></span>
-                        <span><Link to={'/about'}>About</Link></span>
-                        <span><Link to={'/about'}>My Work</Link></span>
-                        <span><Link to={'/contact'}>Contact</Link></span>
+                        <Link to={'/'}><span>Home</span></Link>
+                        <Link to={'/about'}><span>About</span></Link>
+                        <Link to={'/about'}><span>My Work</span></Link>
+                        <Link to={'/contact'}><span>Contact</span></Link>
                     </div>
 
                 </div>
