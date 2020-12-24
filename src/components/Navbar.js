@@ -16,9 +16,10 @@ export default function Navbar() {
 
                     </div>
                     <div className="links">
-                        <span><Link to={'/'}>Home</Link></span>
-                        <span><Link to={'/contact'}>Contact</Link></span>
+                        <span><Link to={'/'} onClick={() => { console.log("clicked") }}>Home</Link></span>
                         <span><Link to={'/about'}>About</Link></span>
+                        <span><Link to={'/about'}>My Work</Link></span>
+                        <span><Link to={'/contact'}>Contact</Link></span>
                     </div>
 
                 </div>
