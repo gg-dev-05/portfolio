@@ -1,4 +1,19 @@
-p {
-  background: red;
+.welcome {
+  color: #551A8B;
+  font-size: 3em;
+}
+
+.home-content {
+  margin-top: 10%;
+  font-size: 1.1em;
+  color: #08A045;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  place-items: center;
 }
 /*# sourceMappingURL=Home.css.map */

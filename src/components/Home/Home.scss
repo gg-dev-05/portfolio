@@ -1,4 +1,15 @@
 @import '../../css/globals.scss';
-p {
-    background: red;
+.welcome {
+    color: $text_1;
+    font-size: 3em;
+}
+
+.home-content {
+    margin-top: 10%;
+    font-size: 1.1em;
+    color: $text_2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    place-items: center;
 }
