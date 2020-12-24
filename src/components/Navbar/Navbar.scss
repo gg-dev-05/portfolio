@@ -1,10 +1,10 @@
-@import './globals.scss';
+@import '../../css/globals.scss';
 .nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     .logo {
-        color: $text_2;
+        color: $text_3;
         font-size: 2em;
     }
     .links {

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,GAAG;CAClB",
+    "sources": [
+        "Home.scss",
+        "../../css/globals.scss"
+    ],
+    "names": [],
+    "file": "Home.css"
+}

@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Home from '../components/Home'
-import About from '../components/About'
-import Contact from '../components/Contact'
+import Home from '../Home/Home'
+import About from '../About/About'
+import Contact from '../Contact/Contact'
 
-import '../css/Navbar.css'
+import './Navbar.css'
 
 export default function Navbar() {
     return (
