@@ -1,5 +1,7 @@
 import React from 'react'
 import './Home.css'
+import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/styles.css";
 
 
 export default function Home() {
@@ -11,7 +13,10 @@ export default function Home() {
             </div>
 
             <div className="right">
-                <button>DOWNLOAD</button>
+                <a href="https://drive.google.com/file/d/1n2q5Pe9g5XD98oaflmF1lyuuf_CK4TB-/view" target="_blank" rel="noreferrer">
+                    <AwesomeButton type="primary"><i class="fas fa-download"></i>Download Resume</AwesomeButton>
+
+                </a>
             </div>
 
         </div>
