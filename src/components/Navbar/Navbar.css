@@ -29,6 +29,7 @@
 }
 
 .nav .links span {
+  margin-right: 10px;
   display: -ms-grid;
   display: grid;
   place-items: center;
