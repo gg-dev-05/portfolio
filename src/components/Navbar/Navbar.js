@@ -5,6 +5,8 @@ import About from '../About/About'
 import Contact from '../Contact/Contact'
 import Projects from '../Projects/Projects'
 
+import { CSSTransition, TransitionGroup } from "react-transition-group";
+
 import './Navbar.css'
 
 export default function Navbar() {
@@ -26,13 +28,21 @@ export default function Navbar() {
                 </div>
 
                 <div className="main">
-                    <Switch>
-                        <Route exact path='/' component={Home} />
-                        <Route path='/contact' component={Contact} />
-                        <Route path='/projects' component={Projects} />
-                        <Route path='/about' component={About} />
 
-                    </Switch>
+                    <Route render={({ location }) => (
+                        <TransitionGroup>
+                            <CSSTransition key={location.key} timeout={30000} classNames="fade">
+                                <Switch location={location}>
+                                    <Route exact path='/' component={Home} />
+                                    <Route path='/contact' component={Contact} />
+                                    <Route path='/projects' component={Projects} />
+                                    <Route path='/about' component={About} />
+
+                                </Switch>
+                            </CSSTransition>
+                        </TransitionGroup>
+                    )} />
+
                 </div>
 
             </Router>

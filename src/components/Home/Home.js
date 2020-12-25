@@ -14,7 +14,7 @@ export default function Home() {
 
             <div className="right">
                 <a href="https://drive.google.com/file/d/1n2q5Pe9g5XD98oaflmF1lyuuf_CK4TB-/view" target="_blank" rel="noreferrer">
-                    <AwesomeButton type="primary"><i class="fas fa-download"></i>Download Resume</AwesomeButton>
+                    <AwesomeButton type="primary"><i className="fas fa-download"></i>Download Resume</AwesomeButton>
 
                 </a>
             </div>
