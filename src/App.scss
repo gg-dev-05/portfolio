@@ -34,6 +34,7 @@ footer {
     height: 10vh;
 }
 
+// Fade Animations for Browser Router -----
 .page {
     position: absolute;
     left: 5%;
@@ -60,3 +61,20 @@ footer {
     opacity: 0;
     transition: opacity 150ms linear;
 }
+
+// -----------------------------------
+// Scrollbar -------------------
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 1);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: white;
+    outline: 1px solid $text_2;
+}
+
+// ----------------------------------
