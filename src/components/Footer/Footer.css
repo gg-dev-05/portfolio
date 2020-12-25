@@ -1,4 +1,6 @@
-.footer {
-  background: green;
+.Footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=Footer.css.map */
