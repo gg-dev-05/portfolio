@@ -1,0 +1,12 @@
+@import '../../css/globals.scss';
+.about-me {
+    margin-top: 10%;
+    .about {
+        color: $text_1;
+        font-size: 3em;
+    }
+    .content {
+        font-size: 1.1em;
+        color: $text_2;
+    }
+}

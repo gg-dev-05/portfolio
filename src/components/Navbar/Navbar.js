@@ -18,7 +18,7 @@ export default function Navbar() {
                     <div className="links">
                         <Link to={'/'}><span>Home</span></Link>
                         <Link to={'/about'}><span>About</span></Link>
-                        <Link to={'/about'}><span>My Work</span></Link>
+                        <Link to={'/projects'}><span>My Work</span></Link>
                         <Link to={'/contact'}><span>Contact</span></Link>
                     </div>
 
@@ -28,6 +28,7 @@ export default function Navbar() {
                     <Switch>
                         <Route exact path='/' component={Home} />
                         <Route path='/contact' component={Contact} />
+                        <Route path='/projects' component={Contact} />
                         <Route path='/about' component={About} />
 
                     </Switch>

@@ -1,8 +1,3 @@
-.welcome {
-  color: #551A8B;
-  font-size: 3em;
-}
-
 .home-content {
   margin-top: 10%;
   font-size: 1.1em;
@@ -17,7 +12,12 @@
   place-items: center;
 }
 
-i {
+.home-content .left .welcome {
+  color: #551A8B;
+  font-size: 3em;
+}
+
+.home-content .right i {
   margin-right: 0.5em;
 }
 /*# sourceMappingURL=Home.css.map */
