@@ -1,14 +1,46 @@
 .about-me {
   margin-top: 10%;
-}
-
-.about-me .about {
-  color: #551A8B;
-  font-size: 3em;
-}
-
-.about-me .content {
-  font-size: 1.1em;
+  font-size: 1.5em;
   color: #08A045;
+  line-height: 2em;
+}
+
+.about-me a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.about-me .change-on-hover:hover {
+  color: #551A8B;
+  font-weight: lighter;
+}
+
+.about-me .stack {
+  margin-top: 30px;
+}
+
+.about-me .stack .frontend,
+.about-me .stack .backend,
+.about-me .stack .database {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.about-me .stack .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-me .stack .items i,
+.about-me .stack .items img {
+  margin-right: 16px;
 }
 /*# sourceMappingURL=About.css.map */

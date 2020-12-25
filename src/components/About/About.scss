@@ -1,12 +1,32 @@
 @import '../../css/globals.scss';
 .about-me {
     margin-top: 10%;
-    .about {
-        color: $text_1;
-        font-size: 3em;
+    font-size: 1.5em;
+    color: $text_2;
+    line-height: 2em;
+    a {
+        cursor: pointer;
+        text-decoration: none;
     }
-    .content {
-        font-size: 1.1em;
-        color: $text_2;
+    .change-on-hover:hover {
+        color: $text_1;
+        font-weight: lighter;
+    }
+    .stack {
+        margin-top: 30px;
+        .frontend,
+        .backend,
+        .database {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .items {
+            display: flex;
+            justify-content: center;
+            i,
+            img {
+                margin-right: 16px;
+            }
+        }
     }
 }
