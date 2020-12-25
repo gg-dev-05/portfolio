@@ -12,6 +12,9 @@
         white-space: nowrap;
         grid-template-columns: repeat(4, 1fr);
         align-items: center;
+        .active {
+            color: white;
+        }
         span {
             display: grid;
             place-items: center;

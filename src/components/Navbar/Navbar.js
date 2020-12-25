@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import Home from '../Home/Home'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
@@ -17,10 +17,10 @@ export default function Navbar() {
 
                     </div>
                     <div className="links">
-                        <Link to={'/'}><span>Home</span></Link>
-                        <Link to={'/about'}><span>About</span></Link>
-                        <Link to={'/projects'}><span>My Work</span></Link>
-                        <Link to={'/contact'}><span>Contact</span></Link>
+                        <span><NavLink exact to="/" activeClassName="active">Home</NavLink></span>
+                        <span><NavLink to="/about" activeClassName="active">About</NavLink></span>
+                        <span><NavLink to="/projects" activeClassName="active">My Work</NavLink></span>
+                        <span><NavLink to="/contact" activeClassName="active">Contact</NavLink></span>
                     </div>
 
                 </div>
