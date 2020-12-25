@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from '../Home/Home'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
+import Projects from '../Projects/Projects'
 
 import './Navbar.css'
 
@@ -28,7 +29,7 @@ export default function Navbar() {
                     <Switch>
                         <Route exact path='/' component={Home} />
                         <Route path='/contact' component={Contact} />
-                        <Route path='/projects' component={Contact} />
+                        <Route path='/projects' component={Projects} />
                         <Route path='/about' component={About} />
 
                     </Switch>
