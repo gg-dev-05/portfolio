@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, NavLink, Redirect } from "react-router-dom";
 import Home from '../Home/Home'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
@@ -36,7 +36,7 @@ export default function Navbar() {
                                     <Route path='/contact' component={Contact} />
                                     <Route path='/projects' component={Projects} />
                                     <Route path='/about' component={About} />
-
+                                    <Redirect to="/" />
                                 </Switch>
                             </CSSTransition>
                         </TransitionGroup>
