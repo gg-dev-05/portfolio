@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,OAAO,CAAC;EACJ,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "Footer.scss",
+        "../../css/globals.scss"
+    ],
+    "names": [],
+    "file": "Footer.css"
+}

@@ -8,7 +8,6 @@ import Projects from '../Projects/Projects'
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 import './Navbar.css'
-
 export default function Navbar() {
     return (
         <div>

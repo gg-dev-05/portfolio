@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,GAAG;EACf,UAAU,ECIL,OAAO;CDHf",
+    "sources": [
+        "Contact.scss",
+        "../../css/globals.scss"
+    ],
+    "names": [],
+    "file": "Contact.css"
+}

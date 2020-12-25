@@ -10,12 +10,28 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.app {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.empty-height {
+    background: $text_3;
+    width: 100%;
+    height: 80vh;
+}
+
 .preloading {
     z-index: 2;
 }
 
 header {
-    padding: 5% 5% 0%;
+    padding: 5%;
+}
+
+footer {
+    background: $background_color;
+    height: 10vh;
 }
 
 .page {
