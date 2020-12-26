@@ -43,6 +43,16 @@ textarea {
     margin-top: 40px;
 }
 
+textarea {
+    transition: all 0.1s ease-out;
+}
+
+textarea:focus {
+    color: $text_2;
+    transform: scale(1.1);
+    box-shadow: 10px 10px;
+}
+
 .send-button {
     margin-top: 20px;
 }
