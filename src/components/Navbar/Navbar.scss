@@ -6,6 +6,7 @@
     .logo {
         color: $text_3;
         font-size: 2em;
+        filter: drop-shadow(0 0 0.75rem $text_3);
     }
     .links {
         display: grid;

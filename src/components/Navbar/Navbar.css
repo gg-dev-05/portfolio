@@ -11,6 +11,8 @@
 .nav .logo {
   color: #FFEE32;
   font-size: 2em;
+  -webkit-filter: drop-shadow(0 0 0.75rem #FFEE32);
+          filter: drop-shadow(0 0 0.75rem #FFEE32);
 }
 
 .nav .links {
