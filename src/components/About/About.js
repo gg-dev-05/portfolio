@@ -1,5 +1,11 @@
 import React from 'react'
 import './About.css'
+
+import mysql from '../../data/mysql-6.svg'
+import express from '../../data/express-109.svg'
+import flask from '../../data/flask.svg'
+import heroku from '../../data/heroku-1.svg'
+import mongo from '../../data/mongodb-icon-1.svg'
 export default function About() {
     return (
         <div className="about-me page">
@@ -30,17 +36,18 @@ export default function About() {
                     <div className="items">
                         <i class="fab fa-node fa-3x" title="NodeJs"></i>
                         <i class="fab fa-python fa-3x" title="Python"></i>
-                        <img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" alt="express" title="expressJs" />
-                        <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" title="Flask" />
-                        <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" title="Heroku" />
+                        <img className="express" src={express} alt="express" />
+                        <img className="flask" src={flask} alt="flask" />
+                        <img className="heroku" src={heroku} alt="heroku" />
                     </div>
                 </div>
 
                 <div className="database">
                     <h4>Databases</h4>
                     <div className="items">
-                        <img src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" alt="mysql" title="mysql" />
-                        <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="mongo" title="mongo" />
+                        <img className="mysql" src={mysql} alt="mysql" />
+                        <img className="mongo" src={mongo} alt="mongo" />
+
                     </div>
                 </div>
             </div>
