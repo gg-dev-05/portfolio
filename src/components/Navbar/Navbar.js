@@ -14,7 +14,7 @@ export default function Navbar() {
             <Router>
                 <div className="nav">
                     <div className="logo">
-                        <h2>Garvit Galgat</h2>
+                        <a href="/"><h2>Garvit Galgat</h2></a>
 
                     </div>
                     <div className="links">
