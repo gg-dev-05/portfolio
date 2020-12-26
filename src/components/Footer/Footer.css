@@ -1,6 +1,29 @@
 .Footer {
+  width: 50px;
+  background: #FFEE32;
+}
+
+.Footer .box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  top: 50%;
+  right: 0;
+}
+
+.Footer .box a {
+  text-decoration: none;
+  color: #202020;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.Footer .box a:hover {
+  color: #08A045;
 }
 /*# sourceMappingURL=Footer.css.map */

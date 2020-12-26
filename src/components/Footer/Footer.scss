@@ -1,4 +1,20 @@
 @import '../../css/globals.scss';
 .Footer {
-    display: flex;
+    width: 50px;
+    background: $text_3;
+    .box {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 50%;
+        right: 0;
+        a {
+            text-decoration: none;
+            color: $background_color;
+            transition: all 0.6s ease;
+        }
+        a:hover {
+            color: $text_2;
+        }
+    }
 }
