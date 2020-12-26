@@ -1,23 +1,26 @@
 .home-content {
   margin-top: 10%;
+  padding-top: 80px;
   font-size: 1.1em;
   color: #08A045;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   place-items: center;
 }
 
-.home-content .left .welcome {
-  color: #551A8B;
-  font-size: 3em;
+.home-content .content {
+  font-size: 2em;
 }
 
-.home-content .right i {
+.home-content .resume {
+  margin-top: 10px;
+}
+
+.home-content .resume i {
   margin-right: 0.5em;
 }
 /*# sourceMappingURL=Home.css.map */
