@@ -1,12 +1,15 @@
 import React from 'react'
 import './About.css'
-
+import { useEffect } from "react";
 import mysql from '../../data/mysql-6.svg'
 import express from '../../data/express-109.svg'
 import flask from '../../data/flask.svg'
 import heroku from '../../data/heroku-1.svg'
 import mongo from '../../data/mongodb-icon-1.svg'
 export default function About() {
+
+
+
     return (
         <div className="about-me page">
 
@@ -21,12 +24,12 @@ export default function About() {
                 <div className="frontend">
                     <h4>Frontend Technologies </h4>
                     <div className="items">
-                        <i class="fab fa-html5 fa-3x" title="HTML5"></i>
-                        <i class="fab fa-css3 fa-3x" title="CSS3"></i>
-                        <i class="fab fa-js fa-3x" title="Javascript"></i>
-                        <i class="fab fa-sass fa-3x" title="SASS"></i>
-                        <i class="fab fa-bootstrap fa-3x" title="Bootstrap"></i>
-                        <i class="fab fa-react fa-3x" title="React"></i>
+                        <i className="fab fa-html5 fa-3x" title="HTML5"></i>
+                        <i className="fab fa-css3 fa-3x" title="CSS3"></i>
+                        <i className="fab fa-js fa-3x" title="Javascript"></i>
+                        <i className="fab fa-sass fa-3x" title="SASS"></i>
+                        <i className="fab fa-bootstrap fa-3x" title="Bootstrap"></i>
+                        <i className="fab fa-react fa-3x" title="React"></i>
                     </div>
 
                 </div>
@@ -34,8 +37,8 @@ export default function About() {
                 <div className="backend">
                     <h4>Backend Technologies</h4>
                     <div className="items">
-                        <i class="fab fa-node fa-3x" title="NodeJs"></i>
-                        <i class="fab fa-python fa-3x" title="Python"></i>
+                        <i className="fab fa-node fa-3x" title="NodeJs"></i>
+                        <i className="fab fa-python fa-3x" title="Python"></i>
                         <img className="express" src={express} alt="express" />
                         <img className="flask" src={flask} alt="flask" />
                         <img className="heroku" src={heroku} alt="heroku" />

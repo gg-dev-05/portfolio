@@ -1,10 +1,15 @@
 import React from 'react'
 import './Home.css'
+import { useEffect } from "react";
+
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 
 
 export default function Home() {
+
+
+
     return (
         <div className="home-content page">
             <div className="content">

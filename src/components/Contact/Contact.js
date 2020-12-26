@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from "react";
 
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
@@ -6,6 +7,9 @@ import "react-awesome-button/dist/styles.css";
 import './Contact.css'
 
 export default function Contact() {
+
+
+
     return (
         <div className="contact page">
             <h1>CONTACT ME</h1>
