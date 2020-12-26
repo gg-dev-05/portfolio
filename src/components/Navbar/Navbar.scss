@@ -28,10 +28,10 @@
             transition: all 0.6s;
         }
         span:hover {
+            padding: 0px 50px;
             background: $nav_selected_box;
             color: $nav_selected;
             position: relative;
-            top: -3px;
         }
         span:selected {
             color: green;

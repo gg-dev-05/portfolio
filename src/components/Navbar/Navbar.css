@@ -44,10 +44,10 @@
 }
 
 .nav .links span:hover {
+  padding: 0px 50px;
   background: #333533;
   color: #FFFFFF;
   position: relative;
-  top: -3px;
 }
 
 .nav .links span:selected {
