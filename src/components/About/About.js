@@ -24,12 +24,12 @@ export default function About() {
                 <div className="frontend">
                     <h4>Frontend Technologies </h4>
                     <div className="items">
-                        <i className="fab fa-html5 fa-3x" title="HTML5"></i>
-                        <i className="fab fa-css3 fa-3x" title="CSS3"></i>
-                        <i className="fab fa-js fa-3x" title="Javascript"></i>
-                        <i className="fab fa-sass fa-3x" title="SASS"></i>
-                        <i className="fab fa-bootstrap fa-3x" title="Bootstrap"></i>
-                        <i className="fab fa-react fa-3x" title="React"></i>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"><i className="fab fa-html5 fa-3x html" title="HTML5"></i></a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Archive/CSS3"><i className="fab fa-css3 fa-3x css" title="CSS3"></i></a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><i className="fab fa-js fa-3x javascript" title="Javascript"></i></a>
+                        <a href="https://sass-lang.com/"><i className="fab fa-sass fa-3x sass" title="SASS"></i></a>
+                        <a href="https://getbootstrap.com/"><i className="fab fa-bootstrap fa-3x bootstrap" title="Bootstrap"></i></a>
+                        <a href="https://reactjs.org/"><i className="fab fa-react fa-3x react" title="React"></i></a>
                     </div>
 
                 </div>
@@ -37,19 +37,19 @@ export default function About() {
                 <div className="backend">
                     <h4>Backend Technologies</h4>
                     <div className="items">
-                        <i className="fab fa-node fa-3x" title="NodeJs"></i>
-                        <i className="fab fa-python fa-3x" title="Python"></i>
-                        <img className="express" src={express} alt="express" />
-                        <img className="flask" src={flask} alt="flask" />
-                        <img className="heroku" src={heroku} alt="heroku" />
+                        <a href="https://nodejs.org/en/"><i className="fab fa-node fa-3x node" title="NodeJs"></i></a>
+                        <a href="https://www.python.org/"><i className="fab fa-python fa-3x python" title="Python"></i></a>
+                        <a href="https://expressjs.com/"><img className="express" src={express} alt="express" /></a>
+                        <a href="https://flask.palletsprojects.com/en/1.1.x/"><img className="flask" src={flask} alt="flask" /></a>
+                        <a href="https://www.heroku.com/"><img className="heroku" src={heroku} alt="heroku" /></a>
                     </div>
                 </div>
 
                 <div className="database">
                     <h4>Databases</h4>
                     <div className="items">
-                        <img className="mysql" src={mysql} alt="mysql" />
-                        <img className="mongo" src={mongo} alt="mongo" />
+                        <a href="https://www.mysql.com/"><img className="mysql" src={mysql} alt="mysql" /></a>
+                        <a href="https://www.mongodb.com/"><img className="mongo" src={mongo} alt="mongo" /></a>
 
                     </div>
                 </div>

@@ -39,10 +39,17 @@
           justify-content: center;
 }
 
+.about-me .stack .items a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .about-me .stack .items i,
 .about-me .stack .items img {
   margin-top: 2px;
   margin-right: 16px;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .about-me .stack .items .mysql,
@@ -52,7 +59,57 @@
 .about-me .stack .items .mongo {
   width: 72px;
   height: 72px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   -webkit-filter: brightness(0) saturate(100%) invert(26%) sepia(88%) saturate(3394%) hue-rotate(140deg) brightness(108%) contrast(94%);
           filter: brightness(0) saturate(100%) invert(26%) sepia(88%) saturate(3394%) hue-rotate(140deg) brightness(108%) contrast(94%);
+}
+
+.about-me .stack .items .html:hover {
+  -webkit-filter: invert(44%) sepia(91%) saturate(1562%) hue-rotate(345deg) brightness(95%) contrast(92%);
+          filter: invert(44%) sepia(91%) saturate(1562%) hue-rotate(345deg) brightness(95%) contrast(92%);
+}
+
+.about-me .stack .items .css:hover {
+  -webkit-filter: brightness(0) saturate(100%) invert(32%) sepia(71%) saturate(5850%) hue-rotate(220deg) brightness(98%) contrast(86%);
+          filter: brightness(0) saturate(100%) invert(32%) sepia(71%) saturate(5850%) hue-rotate(220deg) brightness(98%) contrast(86%);
+}
+
+.about-me .stack .items .javascript:hover {
+  -webkit-filter: brightness(0) saturate(100%) invert(83%) sepia(64%) saturate(436%) hue-rotate(357deg) brightness(93%) contrast(95%);
+          filter: brightness(0) saturate(100%) invert(83%) sepia(64%) saturate(436%) hue-rotate(357deg) brightness(93%) contrast(95%);
+}
+
+.about-me .stack .items .sass:hover {
+  -webkit-filter: brightness(0) saturate(100%) invert(77%) sepia(41%) saturate(5580%) hue-rotate(293deg) brightness(84%) contrast(85%);
+          filter: brightness(0) saturate(100%) invert(77%) sepia(41%) saturate(5580%) hue-rotate(293deg) brightness(84%) contrast(85%);
+}
+
+.about-me .stack .items .bootstrap:hover,
+.about-me .stack .items .heroku:hover {
+  -webkit-filter: brightness(0) saturate(100%) invert(28%) sepia(16%) saturate(2419%) hue-rotate(225deg) brightness(93%) contrast(91%);
+          filter: brightness(0) saturate(100%) invert(28%) sepia(16%) saturate(2419%) hue-rotate(225deg) brightness(93%) contrast(91%);
+}
+
+.about-me .stack .items .react:hover {
+  -webkit-filter: brightness(0) saturate(100%) invert(66%) sepia(89%) saturate(628%) hue-rotate(157deg) brightness(97%) contrast(99%);
+          filter: brightness(0) saturate(100%) invert(66%) sepia(89%) saturate(628%) hue-rotate(157deg) brightness(97%) contrast(99%);
+}
+
+.about-me .stack .items .node:hover {
+  -webkit-filter: brightness(0) saturate(100%) invert(57%) sepia(21%) saturate(802%) hue-rotate(62deg) brightness(99%) contrast(86%);
+          filter: brightness(0) saturate(100%) invert(57%) sepia(21%) saturate(802%) hue-rotate(62deg) brightness(99%) contrast(86%);
+}
+
+.about-me .stack .items .python:hover,
+.about-me .stack .items .mysql:hover {
+  -webkit-filter: brightness(0) saturate(100%) invert(41%) sepia(85%) saturate(382%) hue-rotate(165deg) brightness(88%) contrast(96%);
+          filter: brightness(0) saturate(100%) invert(41%) sepia(85%) saturate(382%) hue-rotate(165deg) brightness(88%) contrast(96%);
+}
+
+.about-me .stack .items .express:hover,
+.about-me .stack .items .flask:hover {
+  -webkit-filter: invert(0%) sepia(0%) saturate(7470%) hue-rotate(272deg) brightness(108%) contrast(108%);
+          filter: invert(0%) sepia(0%) saturate(7470%) hue-rotate(272deg) brightness(108%) contrast(108%);
 }
 /*# sourceMappingURL=About.css.map */
