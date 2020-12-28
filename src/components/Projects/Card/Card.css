@@ -28,4 +28,27 @@
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }
+
+.Card .container {
+  width: 440px;
+  height: 290px;
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.Card .tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Card .tags span {
+  background: red;
+  width: 70px;
+  height: 30px;
+  padding: 2px;
+  margin: 2px;
+}
 /*# sourceMappingURL=Card.css.map */

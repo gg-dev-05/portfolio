@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AACA,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,GAAG;EACf,UAAU,ECIL,OAAO;CDHf",
+    "mappings": "AACA,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,GAAG;EACf,UAAU,ECIL,OAAO;EDHZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;CAChC",
     "sources": [
         "Projects.scss",
         "../../css/globals.scss"
