@@ -9,10 +9,10 @@
 }
 
 .nav .logo {
-  color: #FFEE32;
+  color: #FFFF64;
   font-size: 2em;
-  -webkit-filter: drop-shadow(0 0 0.75rem #FFEE32);
-          filter: drop-shadow(0 0 0.75rem #FFEE32);
+  -webkit-filter: drop-shadow(0 0 0.75rem #FFFF64);
+          filter: drop-shadow(0 0 0.75rem #FFFF64);
 }
 
 .nav .links {

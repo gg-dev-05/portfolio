@@ -1,0 +1,31 @@
+.Card {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 440px;
+  height: 290px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.Card:hover .visible-on-hover {
+  opacity: 1;
+}
+
+.Card img {
+  width: 440px;
+  height: 290px;
+}
+
+.Card .back {
+  position: absolute;
+}
+
+.Card .front {
+  z-index: 2;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+/*# sourceMappingURL=Card.css.map */
