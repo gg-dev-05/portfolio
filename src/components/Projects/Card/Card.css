@@ -6,6 +6,7 @@
   height: 290px;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
+  margin-bottom: 30px;
 }
 
 .Card:hover .visible-on-hover {

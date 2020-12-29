@@ -74,7 +74,7 @@ export default function Contact() {
 
     return (
         <div className="contact page">
-            <h1>CONTACT ME</h1>
+            <h1>Get In Touch</h1>
 
             <div>
                 <div className="name">
