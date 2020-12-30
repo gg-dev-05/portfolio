@@ -1,5 +1,4 @@
-// import { useEffect } from "react";
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './Projects.css'
 import projects from './MyProjects'
 
@@ -7,36 +6,65 @@ import Card from './Card/Card'
 
 export default function Projects() {
 
-    // var tags = [
-    //     "Flask", "MYSQL", "Heroku", "Bootstrap", "Python", "ReactJS", "SASS", "ExpressJS", "NodeJS", "BOT", "CSS", "MongoDB",
-    //     "React-Native", "MERN", "JQuery", "extensions", "Flutter"
-    // ]
-
     var tags = [
-        "All", "tag1", "tag2", "tag3", "tag4", "tag5"
+        "All", "tag1", "tag2", "tag3", "tag4"
     ]
+    var [currentTag, setCurrentTag] = useState("All")
+    var Cards = useRef([])
+    var [proj, setProj] = useState([])
 
-    var selector = []
+    useEffect(() => {
+        Cards.current = []
+        projects.forEach(project => {
+            if (currentTag === "All") {
+                Cards.current.push(
+                    <Card key={projects.indexOf(project)} img1={project['img1']} img2={project['img2']} title={project['title']}
+                        tags={project['tags']} link={project['link']}
+                    />
+                )
+            }
+            else {
+                project['tags'].forEach(tag => {
+                    console.log(tag, currentTag)
+                    if (tag === currentTag) {
+                        Cards.current.push(
+                            <Card key={projects.indexOf(project)} img1={project['img1']} img2={project['img2']} title={project['title']}
+                                tags={project['tags']} link={project['link']}
+                            />
+                        )
+                    }
+                })
+            }
 
-    for (var i = 0; i < tags.length; i++) {
+        })
+        console.log(Cards.current)
+        setProj(Cards.current)
+    }, [currentTag])
+
+    // for (var i = 0; i < projects.length; i++) {
+    //     Cards.push(
+    //         <Card key={i} img1={projects[i]['img1']} img2={projects[i]['img2']} title={projects[i]['title']}
+    //             tags={projects[i]['tags']} link={projects[i]['link']}
+    //         />
+    //     )
+    // }
+
+
+
+
+
+
+    const selector = []
+    tags.forEach(tag => {
         selector.push(
-            <span key={i} onClick={Selected_Cards(tags[i])} >{tags[i]}</span>
+            <button key={tags.indexOf(tag)} onClick={() => {
+                setCurrentTag(tag)
+            }}>{tag}</button>
         )
-    }
+    })
 
-    var Cards = []
 
-    function Selected_Cards(current = "all") {
-        console.log(current)
-    }
 
-    for (i = 0; i < projects.length; i++) {
-        Cards.push(
-            <Card key={i} img1={projects[i]['img1']} img2={projects[i]['img2']} title={projects[i]['title']}
-                tags={projects[i]['tags']} link={projects[i]['link']}
-            />
-        )
-    }
 
 
 
@@ -46,7 +74,7 @@ export default function Projects() {
                 {selector}
             </div>
             <div className="cards">
-                {Cards}
+                {proj}
 
             </div>
 
