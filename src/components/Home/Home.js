@@ -1,6 +1,5 @@
 import React from 'react'
 import './Home.css'
-import { useEffect } from "react";
 
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";

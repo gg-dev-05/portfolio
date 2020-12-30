@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css'
-import { useEffect } from "react";
 import mysql from '../../data/mysql-6.svg'
 import express from '../../data/express-109.svg'
 import flask from '../../data/flask.svg'
