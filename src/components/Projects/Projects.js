@@ -1,40 +1,54 @@
 // import { useEffect } from "react";
 import React from 'react'
 import './Projects.css'
+import projects from './MyProjects'
 
 import Card from './Card/Card'
+
 export default function Projects() {
+
+    // var tags = [
+    //     "Flask", "MYSQL", "Heroku", "Bootstrap", "Python", "ReactJS", "SASS", "ExpressJS", "NodeJS", "BOT", "CSS", "MongoDB",
+    //     "React-Native", "MERN", "JQuery", "extensions", "Flutter"
+    // ]
+
+    var tags = [
+        "All", "tag1", "tag2", "tag3", "tag4", "tag5"
+    ]
+
+    var selector = []
+
+    for (var i = 0; i < tags.length; i++) {
+        selector.push(
+            <span key={i} onClick={Selected_Cards(tags[i])} >{tags[i]}</span>
+        )
+    }
+
+    var Cards = []
+
+    function Selected_Cards(current = "all") {
+        console.log(current)
+    }
+
+    for (i = 0; i < projects.length; i++) {
+        Cards.push(
+            <Card key={i} img1={projects[i]['img1']} img2={projects[i]['img2']} title={projects[i]['title']}
+                tags={projects[i]['tags']} link={projects[i]['link']}
+            />
+        )
+    }
+
+
+
     return (
         <div className="my-work page">
-            <Card img1="https://picsum.photos/id/111/200/300" img2="https://picsum.photos/id/232/200/300"
-                tags={["HTML", "CSS", "JS", "JQuery", "Heroku"]} link="https://github.com/gg-dev-05/clubsiiti"
-            />
-            <Card img1="https://picsum.photos/id/217/200/300" img2="https://picsum.photos/id/230/200/300"
-                tags={["Heroku", "ReactJs", "MYSQL", "Flask"]} link="https://github.com/gg-dev-05/secure-blink"
-            />
-            <Card img1="https://picsum.photos/id/234/200/300" img2="https://picsum.photos/id/111/200/300"
-                tags={["JSX", "GCP", "Mongod", "JQuery", "HTML"]} link="https://github.com/gg-dev-05/secure-blink"
-            />
+            <div className="selector">
+                {selector}
+            </div>
+            <div className="cards">
+                {Cards}
 
-            <Card img1="https://picsum.photos/id/21/200/300" img2="https://picsum.photos/id/34/200/300"
-                tags={["Heroku", "ReactJs", "MYSQL", "Flask"]} link="https://github.com/gg-dev-05/secure-blink"
-            />
-
-            <Card img1="https://picsum.photos/id/90/200/300" img2="https://picsum.photos/id/02/200/300"
-                tags={["JSX", "GCP", "Mongod", "JQuery", "HTML"]} link="https://github.com/gg-dev-05/secure-blink"
-            />
-
-            <Card img1="https://picsum.photos/id/217/200/300" img2="https://picsum.photos/id/230/200/300"
-                tags={["Heroku", "ReactJs", "MYSQL", "Flask"]} link="https://github.com/gg-dev-05/secure-blink"
-            />
-
-            <Card img1="https://picsum.photos/id/217/200/300" img2="https://picsum.photos/id/230/200/300"
-                tags={["Heroku", "ReactJs", "MYSQL", "Flask"]} link="https://github.com/gg-dev-05/secure-blink"
-            />
-
-            <Card img1="https://picsum.photos/id/217/200/300" img2="https://picsum.photos/id/230/200/300"
-                tags={["Heroku", "ReactJs", "MYSQL", "Flask"]} link="https://github.com/gg-dev-05/secure-blink"
-            />
+            </div>
 
         </div>
     )

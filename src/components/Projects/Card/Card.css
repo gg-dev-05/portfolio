@@ -39,6 +39,12 @@
   place-items: center;
 }
 
+.Card .container .title {
+  font-size: 2em;
+  color: #FFFF64;
+  text-shadow: 2px 2px #551A8B;
+}
+
 .Card .container .tags {
   display: -webkit-box;
   display: -ms-flexbox;

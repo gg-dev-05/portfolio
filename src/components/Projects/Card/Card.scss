@@ -30,6 +30,11 @@
         position: absolute;
         display: grid;
         place-items: center;
+        .title {
+            font-size: 2em;
+            color: $text_3;
+            text-shadow: 2px 2px $text_1;
+        }
         .tags {
             display: flex;
             flex-wrap: wrap;

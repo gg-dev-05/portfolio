@@ -23,6 +23,7 @@ export default function Card(props) {
             <img className="back" src={props.img1} alt="back" />
             <div className="front visible-on-hover">
                 <div className="container">
+                    <div className="title">{props.title}</div>
                     <div className="tags">
                         {tags}
                     </div>
